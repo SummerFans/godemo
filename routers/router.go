@@ -7,5 +7,5 @@ import (
 
 func init() {
 	http.HandleFunc("/User", controller.GetUser)
-	http.HandleFunc("/", controller.NotFound)
+	http.HandleFunc("/", controller.ReceiveMessage)
 }
